@@ -6,15 +6,18 @@ import FormField from '../../components/FormField'
 import CustomButton from '../../components/CustomButton'
 import { Link, router } from "expo-router";
 
+
 const SignIn = () => {
   const [form, setForm] = useState({
     email:'',
     password:'',
   })
 
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const submit = () => {}
+  const submit = () => {
+    
+  }
 
   return (
     <SafeAreaView className="bg-primary h-full">
