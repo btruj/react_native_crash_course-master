@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "package": "com.funCode.aora"
+      "package": "com.funcode.aora"
     },
     "android": {
       "adaptiveIcon": {

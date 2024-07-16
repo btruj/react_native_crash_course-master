@@ -8,13 +8,14 @@ import { Link, router } from "expo-router";
 import { createUser } from '../../lib/appwrite';
 
 const SignUp = () => {
+  
   const [form, setForm] = useState({
     username: '',
     email:'',
     password:'',
   })
 
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const submit = () => {
     createUser();
@@ -68,7 +69,7 @@ const SignUp = () => {
           <Text className="text-lg text-gray-100 font-pregular">
             Have an account already?
           </Text>
-          <Link href="./sign-in" className="text-lg font-psemibold text-secondary">Sign In</Link>
+          <Link href="/sign-in" className="text-lg font-psemibold text-secondary">Sign In</Link>
           </View>
           </View>
       </ScrollView>
